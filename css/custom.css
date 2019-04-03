@@ -8,9 +8,13 @@ html {
 
 a {
   color: rgba(0, 0, 0, 0.5);
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: bold;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: color 150ms linear; }
+
+a:hover {
+  color: rgba(0, 0, 0, 0.75); }
 
 nav {
   display: flex;
@@ -18,10 +22,10 @@ nav {
   position: fixed;
   width: 100%;
   margin-top: 50vh; }
-  nav .prev {
-    padding-left: 20px; }
-  nav .next {
-    padding-right: 20px; }
+  nav #prev {
+    margin-left: 20px; }
+  nav #next {
+    margin-right: 20px; }
 
 main {
   display: flex;
